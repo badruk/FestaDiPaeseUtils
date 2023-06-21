@@ -1,0 +1,1 @@
+Removes the option to print a Ricevuta before registering it for "FestaDiPaese" software
