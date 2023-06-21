@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "FestaDiPaeseUtils",
+  "version": "0.1",
+
+  "description": "Removes the option to print a Ricevuta before registering it",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      // Only active on nuova_ricevuta page
+      "matches": ["https://www.festadipaese.it/nuova_ricevuta"],
+      "js": ["FestaDiPaeseUtils.js"]
+    }
+  ]
+
+}
